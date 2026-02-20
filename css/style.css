@@ -1,0 +1,119 @@
+/* ===== Basis ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* 2) Inhalt begrenzen (damit es nicht über die ganze Bildschirmbreite geht) */
+header, nav, main, footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ===== Header ===== */
+header {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  margin: 0 0 8px 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0 0 16px 0;
+  color: #444;
+}
+
+/* ==== Kontakt Button ===== */
+header a {
+  display: inline-block;
+  padding: 10px 14px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #222;
+}
+
+/* ===== Navigation ===== */
+nav {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background: #f2f2f2;
+}
+
+/* ===== Main ===== */
+main {
+  padding-top: 24px;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.3rem;
+}
+
+/* ===== Berufserfahrung ===== */
+.experience {
+  list-style: none;
+  padding: 0;
+}
+
+.experience > li {
+  margin-bottom: 24px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.job-header span {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.activities {
+  margin-top: 8px;
+  padding-left: 20px;
+}
+
+/* ===== Skills ===== */
+
+/* ===== Footer ===== */
+footer {
+  border-top: 1px solid #ddd;
+  color: #555;
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
