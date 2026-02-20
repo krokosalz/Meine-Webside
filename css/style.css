@@ -117,3 +117,20 @@ footer {
   padding-top: 16px;
   padding-bottom: 30px;
 }
+
+/* ===== Language ===== */
+.languages {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* ===== Education ===== */
+.education {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.education > li {
+  margin-bottom: 20px;
+}
