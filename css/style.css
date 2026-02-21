@@ -1,8 +1,11 @@
-/* ===== Basis ===== */
+
+/* ===== RESET ===== */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
+/* ===== Basis ===== */
 body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -70,7 +73,11 @@ nav a:hover {
 
 /* ===== Main ===== */
 main {
-  padding-top: 24px;
+  max-width: 900px;
+  /* Zentrieren */
+  margin: 0 auto;
+  /* abstände oben/unten link/rechts */
+  padding: 24px 20px;
 }
 
 section {
